@@ -41,7 +41,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + " it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com'>mine.fact.tt@gmailcom</a> ? Sorry for the inconvenience!");
+                    $('#success > .alert-danger').append("<strong> Извините кажется, что мой почтовый сервер не отвечает...</strong> Не могли бы вы написать мне напрямую по адресу <a href='mailto:mine.fact.tt@gmail.com?Subject=Сообщение с сайта mguschool.tk (Не работающая контактная форма)'>mine.fact.tt@gmailcom</a> ? Приносим извинения за доставленные неудобства!");
                     $('#success > .alert-danger').append('</div>');
                     // очистка всех полей
                     $('#contactForm').trigger("reset");

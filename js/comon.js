@@ -1,0 +1,4 @@
+
+    $(".item").mangnificPopup({
+        type : 'image'
+    })
